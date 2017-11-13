@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	font-size: 100px;
+}
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+	html{
+		font-size: 100px;
+	}
+}
+@media only screen and (min-width:351px) and (max-width: 380px) {
+	html{
+		font-size: 105px;
+	}
+}
+@media only screen and (min-width: 381px) and (max-width: 416px) {
+	html{
+		font-size: 110px;
+	}
+}
+@media only screen and (min-width:417px) and (max-width: 640px) {
+	html{
+		font-size: 115px;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+	html{
+		font-size: 120px;
+	}
+}
+body{
+	font-size:.12rem;
+	font-weight: normal;
+	font-family: "微软雅黑";
+} 
+.header{
+	height: .44rem;
+	width: 100%;
+	text-align: center;
+}
+.header div{
+	width: 33.3%;
+	height: .44rem;
+	float: left;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .44rem;
+	color: #333333;
+}
+.header .rtn{
+	width: .3rem;
+	height: .3rem;
+	display: block;
+	float: left;
+	margin-top: 7px;
+    margin-left: 10px;
+}
+.header .rtn img{
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-container {
+        width: 100%;
+        height: 2.3rem;
+    }
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+.swiper-pagination-bullet-active {
+    background: #e20000;
+}    
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+ }
+ .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.cp-content{
+	padding: 10px 20px;
+	margin-bottom: .5rem;
+}
+.cp-info{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #dcdcdc;	
+}
+.cp-content .cp-info h2{
+	color: #E20000;
+	font-size: .20rem;
+    margin: .18rem .15rem .13rem .15rem;
+    height: .35rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+.cp-content .cp-info p{
+	margin-bottom: .13rem;
+	font-size: .16rem;
+	color: #989898;
+	padding-left: .15rem;
+}
+.cp-content .cp-info p .sp-inf{
+	color: #333333;
+}
+.footer{
+	width: 100%;
+	height: .44rem;
+	position: fixed;
+	bottom: 0;
+	z-index: 99;
+}
+.footer button{
+	width: 100%;
+	height: .44rem;
+	background-color: #2d95f2;
+	color: #fff;
+	font-size: .18rem;
+	border: 0;
+	outline: none;
+}

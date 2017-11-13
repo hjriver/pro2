@@ -1,0 +1,209 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	font-size: 100px;
+}
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+	html{
+		font-size: 100px;
+	}
+}
+@media only screen and (min-width:351px) and (max-width: 380px) {
+	html{
+		font-size: 105px;
+	}
+}
+@media only screen and (min-width: 381px) and (max-width: 416px) {
+	html{
+		font-size: 110px;
+	}
+}
+@media only screen and (min-width:417px) and (max-width: 640px) {
+	html{
+		font-size: 115px;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+	html{
+		font-size: 120px;
+	}
+}
+body{
+	font-size:.12rem;
+	font-weight: normal;
+	font-family: "微软雅黑";
+	background-color: #f7f7f7;
+} 
+.header{
+	height: .44rem;
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+}
+.header div{
+	width: 33.3%;
+	height: .44rem;
+	float: left;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .44rem;
+	color: #333333;
+}
+.header .rtn{
+	width: .3rem;
+	height: .3rem;
+	display: block;
+	float: left;
+	margin-top: 7px;
+    margin-left: 10px;
+}
+.header .rtn img{
+	width: 100%;
+	height: 100%;
+}
+.suc-content{
+	width: 82%;
+	margin-top: .15rem;
+	border: 1px solid #4b97ed;
+	float: right;
+	position: relative;
+	background-color:#4b97ed;
+	border-radius: 8px;
+}
+.ic-me{
+	width: .4rem;
+	height: .6rem;
+	margin-top: .15rem;
+	float: right;
+	text-align: center;
+}
+.ic-me .bg-me{
+	width: .25rem;
+	height: .3rem;
+	display: block;
+	background: url('../img/bg_me.png') no-repeat;
+	margin: auto;
+	margin-top: 5px;
+}
+.ic-me p{
+	color: #4b97ed;
+}
+.sj{
+	display: block;
+	width:0;
+    height:0;
+    border-width:7px 0px 7px 7px;
+    border-style:solid;
+    border-color:transparent transparent  transparent #4b97ed;/*透明 透明 透明 蓝*/
+    position:absolute;
+   	right:-8px;
+   	top: 18px;
+}
+.suc-box{
+	width: 100%;
+	height: .65rem;
+	margin-top: .15rem;
+}
+.suc-box:nth-child(1){
+	margin-top: .2rem !important;
+}
+.suc-box div{
+	float: left;
+	height: .65rem;
+	color: #fff;
+	font-weight: 300;
+}
+.suc-box .sg-p{
+	
+}
+.suc-box .sg-p span{
+	width: .61rem;
+	height: .61rem;
+	display: block;
+	margin-left: .05rem;
+	border: 2px solid #fff;
+}
+.suc-box .sg-p span img{
+	width: 100%;
+	height: 100%;
+}
+.suc-box .sg-h{
+	line-height: .65rem;	
+}
+.suc-box .sg-h h3{
+	font-size: .18rem;
+	margin-left: 8px;
+	font-weight: 300;
+}
+.suc-box .sg-a{
+	float: right;
+	line-height: .65rem;	
+}
+.suc-box .sg-a a{
+	font-size: .14rem;
+	text-decoration: none;
+	color: #fff;
+	margin-right: .1rem;
+}
+.lk-more{
+	width: 100%;
+	height: .4rem;
+	border-top: 1px solid #fff;
+	margin-top: .15rem;
+}
+.lk-more a{
+	float: right;
+	color: #fff;
+	text-decoration: none;
+	margin-right: .1rem;
+	font-size: .16rem;
+	line-height: .4rem;
+	font-weight: 300;
+}
+.ic-bus{
+	width: .4rem;
+	height: .6rem;
+	margin-top: .15rem;
+	text-align: center;
+	float: left;
+}
+.bg-bus{
+	width: .25rem;
+	height: .3rem;
+	display: block;
+	background: url('../img/bus_01.png') no-repeat;
+	margin: auto;
+	margin-top: 5px;
+}
+.ic-bus p{
+	color: #333333;
+}
+.bus-content{
+	width: 75%;
+	float: left;
+	margin-top: .15rem;
+	background-color: #fff;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0 0  5px #f2f4fa;
+}
+.bus-sj{
+	width:0;
+    height:0;
+    border-width:7px 7px 7px 0px;
+    border-style:solid;
+    border-color:transparent #fff transparent transparent ;/*透明 白 透明  透明*/
+    position:absolute;
+   	left:-7px;
+   	top: 18px;
+}
+.bus-content .bus-box{
+	padding: .1rem;
+	color: #333333;
+}
+.bus-content .bus-box p{
+	font-size: .16rem;
+	font-weight: 300;
+}

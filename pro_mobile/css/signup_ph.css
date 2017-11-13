@@ -1,0 +1,189 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	font-size: 100px;
+}
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+	html{
+		font-size: 100px;
+	}
+}
+@media only screen and (min-width:351px) and (max-width: 380px) {
+	html{
+		font-size: 105px;
+	}
+}
+@media only screen and (min-width: 381px) and (max-width: 416px) {
+	html{
+		font-size: 110px;
+	}
+}
+@media only screen and (min-width:417px) and (max-width: 640px) {
+	html{
+		font-size: 115px;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+	html{
+		font-size: 120px;
+	}
+}
+body{
+	font-size:.12rem;
+	font-weight: normal;
+	font-family: "微软雅黑";
+} 
+.header{
+	height: .44rem;
+	width: 100%;
+	text-align: center;
+}
+.header div{
+	width: 33.3%;
+	height: .44rem;
+	float: left;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .44rem;
+	color: #333333;
+}
+.header .rtn{
+	width: .3rem;
+	height: .3rem;
+	display: block;
+	float: left;
+	margin-top: 7px;
+    margin-left: 10px;
+}
+.header .rtn img{
+	width: 100%;
+	height: 100%;
+}
+.hd-logo{
+	height: 1rem;
+	width: 100%;
+	text-align: center;
+}
+.main-content{
+	position: absolute; 
+    right: 0;
+    left: 0;
+    top: 1.5rem;
+	background: url('../img/bg_lg.png') no-repeat;
+	background-size: cover;
+}
+@media only screen and (min-width:400px ) {
+	.main-content{
+ 		bottom: 0;
+ 	}
+}
+.login-content{ 
+	padding: 0 .2rem;	
+}
+form{
+	border-top: 3px solid #2d95f2;
+	box-shadow: 0 0 10px #f1f1f1;
+	background-color: #fff;	
+}
+.login-inp{
+	margin: 20px 15px;
+	border: 1px solid #dcdcdc;
+	height: .4rem;
+	line-height: .4rem;
+	border-radius: 4px;
+}
+.inp-icon{
+	width: .32rem;
+	height: .32rem;
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 10px;
+    vertical-align: middle;
+}
+.inp-icon img{
+	width: 100%;
+	height: 100%;
+}
+.login-inp input{
+	width: 78%;
+	height: .32rem;
+	line-height: .4rem;
+	outline: none;
+	border:0;
+	font-size: .16rem;
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.login-inp input.inp-ex{
+	width: 64%;
+}
+.login-inp .bitian{
+	float: right;
+	margin-right: 10px;
+	color: #797979;
+	font-size: .14rem;
+}
+.remb{
+	width: 100%;
+	height: .4rem;
+}
+.remb .log-left{
+	width: 46%;
+	height: .4rem;
+	float: left;
+	line-height: .4rem;
+	font-size: .14rem;
+	color: #727272;
+}
+.ick{
+	width: 100%;
+	height:.3rem;
+	padding-left: 10px;
+}
+.chked{
+	display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 27px;
+    height: 27px;
+    background: url('../img/ck_ico.png') no-repeat;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    background-position: 0 0;
+}
+.ckd{
+	position: absolute;
+    opacity: 0;
+	float: left;
+}
+.remb .log-rt{
+	width: 54%;
+	float: left;
+	height: .4rem;
+	line-height: .4rem;
+	color: #2d95f2;
+	text-align: right;
+	font-size: .14rem;
+}
+.remb .log-rt a{
+	padding-right: 10px;
+	color: #2d95f2;
+}
+.login_in{
+	height: .42rem;
+	margin: 30px 15px;
+	padding-bottom: 30px;
+}
+.login_in button{
+	width:100%;
+	height: .42rem;
+	background-color: #2d95f2;
+	font-size: .16rem;
+	color: #fff;
+	border: 0;
+    border-radius: 4px;
+}

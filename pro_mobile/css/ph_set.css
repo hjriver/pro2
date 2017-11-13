@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	font-size: 100px;
+}
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+	html{
+		font-size: 100px;
+	}
+}
+@media only screen and (min-width:351px) and (max-width: 380px) {
+	html{
+		font-size: 105px;
+	}
+}
+@media only screen and (min-width: 381px) and (max-width: 416px) {
+	html{
+		font-size: 110px;
+	}
+}
+@media only screen and (min-width:417px) and (max-width: 640px) {
+	html{
+		font-size: 115px;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+	html{
+		font-size: 120px;
+	}
+}
+body{
+	font-size:.12rem;
+	font-weight: normal;
+	font-family: "微软雅黑";
+	background-color: #f7f7f7;
+} 
+.header{
+	height: .44rem;
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+}
+.header div{
+	width: 33.3%;
+	height: .44rem;
+	float: left;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .44rem;
+	color: #333333;
+}
+.header .rtn{
+	width: .3rem;
+	height: .3rem;
+	display: block;
+	float: left;
+	margin-top: 7px;
+    margin-left: 10px;
+}
+.header .rtn img{
+	width: 100%;
+	height: 100%;
+}
+.set-content{
+	margin-top: .15rem;
+	height: .55rem;
+	width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+}
+.set-content a{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+.per-box{
+	height: .55rem;
+	padding: 0 .2rem;
+}
+.pset{
+	font-size: .16rem;
+	line-height: .55rem;
+}
+.set-content .ahead{
+	width: .2rem;
+	height: .2rem;
+	display: inline-block;
+	float: right;
+	margin-top: .17rem;
+}
+.set-content .ahead img{
+	width: 100%;
+	height: 100%;
+}
+.login-out{
+	padding: .3rem .2rem;
+	height: .45rem;
+}
+.login-out a{
+	text-decoration: none;
+	color: #fff;
+}
+.login-out  button{
+	width:100%;
+	height: .45rem;
+	background-color: #2D95F2;
+	color: #fff;
+	font-size: .18rem;
+	font-weight: 300;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+}
